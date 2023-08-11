@@ -1,26 +1,183 @@
+  @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200&family=Playfair+Display:ital,wght@0,400;1,500;1,600;1,800&family=Poppins:ital,wght@0,200;1,300&display=swap');
+.lembrete{font-family: 'Bricolage Grotesque', sans-serif;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Poppins', sans-serif;
+  }
 *{
-    background-color: black;
+    margin: 0;
+    padding: 0;
 }
 header{
-    width: 100%;
-    height: 20%;
-
+    background: #f4eade;
+    text-align: center;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    height: 270px;
 }
 
-header img{
-    width: 100px;
-    height: 100px;
-    float: left;
+header .logo img{
+    width: 200px;
+    height: 200px;
+    margin-top: 0,5px;
+    margin-left: 0;
 }
 
-header a{
-    color: rgb(57, 57, 225);
+header .navbar a{
+    font-size: 1rem;
+    padding: 0 1.5rem;
+    color: #aa734a;
+    font-family: 'Poppins', sans-serif;
+}
+
+header .navbar a:hover{
+    color: rgb(104, 2, 2);
+}
+.Comidas-favoritas .imgs{
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+}
+.comidas li{
     list-style: none;
+}
+.comidas{
+    width: 350px;
+    height: 870px;
+    background-color: #f4eade;
+    margin-left: 20px;
+    margin-top: 40px;
+    text-align: center;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.31);
+    -moz-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.31);
+    box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.31);
+    font-family: 'Poppins', sans-serif;
     float: left;
 }
-li{
-    list-style-type: none;
-    padding-right: 20px;
-    padding-left: 20px;
-    
+
+.Filmes-favoritos .imgs{
+    width: 100px;
+    height: 150px;
 }
+.filmes li{
+    list-style: none;
+}
+.filmes{
+    width: 350px;
+    height: 1070px;
+    background-color: #f4eade;
+    margin-left: 20px;
+    margin-top: 40px;
+    text-align: center;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.31);
+    -moz-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.31);
+    box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.31);
+    font-family: 'Poppins', sans-serif;
+    float: left;
+}
+.Musicas-favoritas-do-momento .imgs{
+    width: 50px;
+    height: 75px;
+}
+.musicas li{
+    list-style: none;
+}
+.musicas{
+    width: 350px;
+    height: 1725px;
+    background-color: #f4eade;
+    margin-left: 20px;
+    margin-top: 40px;
+    text-align: center;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.31);
+    -moz-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.31);
+    box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.31);
+    font-family: 'Poppins', sans-serif;
+    float: left;
+}
+
+.Series-favoritas .imgs{
+    width: 100px;
+    height: 150px;
+}
+.series li{
+    list-style: none;
+}
+.series{
+    width: 350px;
+    height: 1070px;
+    background-color: #f4eade;
+    margin-left: 20px;
+    margin-top: 40px;
+    text-align: center;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.31);
+    -moz-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.31);
+    box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.31);
+    font-family: 'Poppins', sans-serif;
+    float: left;
+}
+
+.Livros-favoritos .imgs{
+    width: 100px;
+    height: 150px;
+}
+.livros li{
+    list-style: none;
+}
+.livros{
+    width: 350px;
+    height: 890px;
+    background-color: #f4eade;
+    margin-left: 20px;
+    margin-top: 40px;
+    text-align: center;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.31);
+    -moz-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.31);
+    box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.31);
+    font-family: 'Poppins', sans-serif;
+    float: left;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    display: block;
+    float: left;
+    background-color: #f4eade;
+    margin-top: 10px;    
+    box-shadow: 0px -1px 36px 0px rgba(0,0,0,0.59);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+footer .ctt{
+    float: left;
+    margin-left: 30px;
+}
+footer #insta{
+    margin-left: 698px;
+}
+.myButton {
+	background-color:#aa744a;
+	border-radius:28px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#050505;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #000000;
+}
+.myButton:hover {
+	background-color:#ffffff;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+
